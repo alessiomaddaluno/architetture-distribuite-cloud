@@ -1,8 +1,11 @@
 ![[Pasted image 20260313164111.png|554]]
 
-La Butterfly è una variante dell'ipercubo. Considrando la dimensione $r$ è costituita da $2^r$ righe e $r+1$ colonne. Ne consegue che ha:
+La Butterfly è una variante dell'ipercubo.
 
+### Nodi
+Considrando la dimensione $r$ è costituita da $2^r$ righe e $r+1$ colonne. Ne consegue che ha:
 - $2^r\cdot (r+1)$  nodi;
+### Archi
 - Gli archi sono $r*2^{r+1}$ perché:
 	- $r$ perché l’ultima colonna non ha archi uscenti;
 	- 2 perché ogni nodo ha 2 archi _uscenti_;
@@ -18,15 +21,16 @@ Due nodi $u$ e $u'$  sono connessi se:
 - $w=w'$ (arco diretto) oppure:
 	- $w$ e $w'$ differiscono all'i-esimo bit (arco incrociato)
 
+### Diametro
 Algoritmo di routing:
 
-Fase 1: Andra a sinistra finché si può, impiega al più $r$ passi;
+Fase 1: Va a sinistra finché si può, impiega al più $r$ passi;
 Fase 2: Guardo l'etichetta e se l'i-esimo bit differisce allora seguo l'arco incrociato altrimenti quello diretto. Impiego al più $r$ passi;
 Fase 3: A questo punto mi trovo sulla riga corretta, mi movo a sinistra per ritrovarmi anche sulla stessa colonna;
 
 $r+r+r = 3\cdot r = \theta(logN)$
 
-Bisezione:
+### Bisezione:
 
 Partiamo dal numero dei nodi: $2^r\cdot(r+1)$
 
