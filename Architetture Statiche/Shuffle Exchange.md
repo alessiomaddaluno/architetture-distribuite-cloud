@@ -27,6 +27,9 @@ for (i = r-1 to 0){
 }
 ```
 
+La complessita è $2r = \theta(logN)$
+
+
 
 
 
