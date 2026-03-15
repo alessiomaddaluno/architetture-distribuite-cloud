@@ -42,7 +42,7 @@ $B=2^r=N/(r+1)$  (Praticamente lo scrivo rispetto ad N e per farlo moltiplico e 
 
 Il denominatore è r che posso scrivere come LogN quindi $r+1=O(logN)$
 
-quindi $B = (N/logN)$
+quindi $B = (N/logN)$ 
 
 
 
