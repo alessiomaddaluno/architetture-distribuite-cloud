@@ -38,5 +38,11 @@ Il motivo per cui parto da quello è che così posso subito spostarmi e non mi d
 La complessità dell'algoritmo è 
 $2\cdot r\cdot+r/2 = O(r) = O(logN)$
 
+### Bisezione
+
+Sempre lo stesso conto. 
+La bisettrice è $2^r=N/r=N/log(N)$
+
+
 
 

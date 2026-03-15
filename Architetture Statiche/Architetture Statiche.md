@@ -1,5 +1,4 @@
 
-
 Tipologie studiante:
 
 [[Ipercubo (Hypercube)]]
@@ -9,3 +8,10 @@ Tipologie studiante:
 [[Cube-Connected Cycles]]
 [[Shuffle Exchange]]
 [[De Brujin Graph]]
+
+Parametri importanti per ogni rete:
+
+- Nodi
+- Archi
+- Bisettrice
+- Diametro

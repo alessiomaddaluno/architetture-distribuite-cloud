@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architetture Statiche/Cube-Connected Cycles.md",
+                "file": "Architetture Statiche/Ipercubo (Hypercube).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cube-Connected Cycles"
+              "title": "Ipercubo (Hypercube)"
             }
           }
         ],
@@ -207,17 +207,17 @@
   },
   "active": "d154900e58cbf747",
   "lastOpenFiles": [
-    "Architetture Statiche/De Brujin Graph.md",
-    "Architetture Statiche/Cube-Connected Cycles.md",
-    "Architetture Statiche/Butterfly Network.md",
-    "Architetture Statiche/Architetture Statiche.md",
     "Architetture Statiche/Shuffle Exchange.md",
+    "Architetture Statiche/Wrapped Butterfly.md",
     "Architetture Statiche/Ipercubo (Hypercube).md",
+    "Architetture Statiche/Butterfly Network.md",
+    "Architetture Statiche/Cube-Connected Cycles.md",
+    "Architetture Statiche/Architetture Statiche.md",
+    "Architetture Statiche/De Brujin Graph.md",
     "Pasted image 20260315130430.png",
     "Immagini/Pasted image 20260315130341.png",
     "Pasted image 20260315125436.png",
     "Immagini/Pasted image 20260315125428.png",
-    "Architetture Statiche/Wrapped Butterfly.md",
     "Argomento X.md",
     "Immagini/Pasted image 20260315122442.png",
     "README.md",
