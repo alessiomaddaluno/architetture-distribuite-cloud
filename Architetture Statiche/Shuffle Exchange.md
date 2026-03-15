@@ -16,7 +16,16 @@ La bisezione è sempre $\theta(N/logN)$ ma non la dimostriamo, ci fidiamo.
 ----
 Supponiamo di voler passare dal nodo $s$ al nodo $t$
 
+L'algoritmo è :
 
+```
+current = s;
+for (i = r-1 to 0){
+	if(current_i != t_i)
+		current = exchange(current)
+	current = shuffle(current)
+}
+```
 
 
 
