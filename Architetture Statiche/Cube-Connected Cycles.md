@@ -27,4 +27,18 @@ Due nodi sono connessi se:
 
 ### Diametro (Routing)
 
-Per poter raggiungere il nodo $(w',i')$ a partire da $(w,i)$ per prima cosa è necessario raggiungere il ciclo di destinazione. 
+Per poter raggiungere il nodo $t$ a partire da $s$ per prima cosa è necessario raggiungere il ciclo di destinazione.
+
+![[Pasted image 20260315130341.png]]
+
+Per farlo partiamo da comparare il bit nella posizione k (Cioè quello nella posizione del ciclo). Se è diverso si segue l'arco dell'ipercubo. Successivamente si sposto anche sull'arco del ciclo.
+
+Il motivo per cui parto da quello è che così posso subito spostarmi e non mi devo muovere nel ciclo di nuovo.
+
+La complessità dell'algoritmo è 
+
+
+
+![[Pasted image 20260315125436.png|471]]
+
+
