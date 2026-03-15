@@ -36,9 +36,7 @@ Per farlo partiamo da comparare il bit nella posizione k (Cioè quello nella pos
 Il motivo per cui parto da quello è che così posso subito spostarmi e non mi devo muovere nel ciclo di nuovo.
 
 La complessità dell'algoritmo è 
+$2\cdot r\cdot+r/2 = O(r) = O(logN)$
 
-
-
-![[Pasted image 20260315125436.png|471]]
 
 
