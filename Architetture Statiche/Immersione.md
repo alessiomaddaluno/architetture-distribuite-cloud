@@ -23,4 +23,16 @@ Parametri ottimali:
 - Dilatazione <= 2
 - Congestione <= 6
 - Espansione <= 2
--  Carico = 1
+- Carico = 1
+
+Un modo per migliorare l'immersione è fare uso della codifica Gray cioè etichettare i nodi in modo che consecutivamente differiscono di solo un bit:
+
+![[Pasted image 20260316162254.png]]
+
+### Matrice in un ipercubo
+
+Assumiamo che la matrice abbia righe e colonne multiple di 2:
+$$N = 2^d=2^t\cdot 2^p$$
+Si etichettano le righe e le colonne secondo la codifica gray e mappiamo nei nodi dell'ipercubo concatenando indice riga-colonna:
+
+![[Pasted image 20260316162508.png]]
