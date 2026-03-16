@@ -31,3 +31,4 @@ Il **numero minimo di archi da tagliare** per dividere la rete in **due metà co
 In questo caso basta eliminare tutti gli archi lungo una generica dimensione k, ovvero fisso k e divido i nodi i due gruppi (tutti quelli con 0 e 1). Quanti archi devo tagliare? Sicuramente almeno 1 per nodo. Considerando che gli archi non sono orientati allora avrò che la bisezione è $N/2$.
 
 Lo svantaggio principale dell'ipercubo è il gradi non costante da qui lo sviluppo di varianti.
+
