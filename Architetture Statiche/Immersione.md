@@ -8,3 +8,4 @@ Le linee tratteggiate sono collegamenti che dopo la mappatura non sono utilizzat
 
 Per poter valutare la qualità di un'immersione è necessario verificare i seguenti parametri:
 
+- Dilatazione
