@@ -44,7 +44,4 @@ Sempre lo stesso conto.
 La bisettrice è $2^r=N/r=N/log(N)$
 
 
-TEST
-
-
 
