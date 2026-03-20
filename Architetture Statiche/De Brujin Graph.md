@@ -11,4 +11,4 @@ Dato un nodo $u$, abbiamo 2 archi uscenti che lo collgano a:
 - $2u \mod r$
 - $2u+1 \mod r$
 
-In soldoni 
+In soldoni collego il nodo u ai nodi shiftwando verso sinistra 
