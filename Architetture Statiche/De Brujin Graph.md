@@ -1,4 +1,5 @@
 
+![[Pasted image 20260320112349.png]]
 
 Costituito da $N=2^r$ nodi. Ogni nodo è identificato da una sequenza binaria da $r$ bit.
 
@@ -11,4 +12,34 @@ Dato un nodo $u$, abbiamo 2 archi uscenti che lo collgano a:
 - $2u \mod r$
 - $2u+1 \mod r$
 
-In soldoni collego il nodo u ai nodi shiftwando verso sinistra 
+In soldoni collego il nodo u ai nodi shiftando verso sinistra verso sinistra perdendo il bit più significativo e concateno 0 e 1.
+
+Ad esempio il nodo 101 lo collego a: 010 e 011.
+
+### Routing 
+
+L'algoritmo di routing segue questa logica: 
+
+Devo raggiungere il nodo t da s l'algoritmo è il seguente:
+
+
+```
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
