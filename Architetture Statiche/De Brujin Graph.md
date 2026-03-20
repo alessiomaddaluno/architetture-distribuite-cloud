@@ -16,21 +16,27 @@ In soldoni collego il nodo u ai nodi shiftando verso sinistra verso sinistra per
 
 Ad esempio il nodo 101 lo collego a: 010 e 011.
 
-### Routing 
+### Routing / Diametro
 
 L'algoritmo di routing segue questa logica: 
 
 Devo raggiungere il nodo t da s l'algoritmo è il seguente:
 
-
+```
+lookup(src,dst){
+	if (src == dst){
+		return src;
+	}
+	shift_sx(src)
+	src = src ° topbit(dst)
+	lookup(src,dst)
+}
 ```
 
+In pratica formo ad ogni passo la destinazione s. Questo implica che l'algoritmo è $O(r)=O(LogN)$.
 
-```
+Possiamo ottimizzarlo se calcoliamo il massimo prefisso della sorgente che corrisponde al massimo suffisso destinazione e utilizziamo come starting point quello
 
-
-
-wqewqe
 
 
 
