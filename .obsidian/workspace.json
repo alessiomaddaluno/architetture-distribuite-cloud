@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti P2P non strutturate/Reti P2P.md",
+                "file": "Architetture Statiche/Architetture Statiche.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reti P2P"
+              "title": "Architetture Statiche"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "d154900e58cbf747",
   "lastOpenFiles": [
-    "Architetture Statiche/De Brujin Graph.md",
     "Reti P2P non strutturate/Reti P2P.md",
+    "Architetture Statiche/De Brujin Graph.md",
     "Reti P2P non strutturate",
     "Architetture Statiche/Immersione.md",
     "Architetture Statiche/Ipercubo (Hypercube).md",
