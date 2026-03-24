@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti P2P non strutturate/Reti P2P Centralizzate.md",
+                "file": "Reti P2P non strutturate/Reti P2P Pure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reti P2P Centralizzate"
+              "title": "Reti P2P Pure"
             }
           }
         ],
@@ -207,8 +207,8 @@
   },
   "active": "d154900e58cbf747",
   "lastOpenFiles": [
-    "Reti P2P non strutturate/Caratteristiche di Base.md",
     "Reti P2P non strutturate/Reti P2P Centralizzate.md",
+    "Reti P2P non strutturate/Caratteristiche di Base.md",
     "Reti P2P non strutturate/Reti P2P Ibride.md",
     "Immagini/Pasted image 20260324190454.png",
     "Immagini/Pasted image 20260324185534.png",
