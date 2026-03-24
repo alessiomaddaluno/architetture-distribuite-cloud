@@ -20,8 +20,7 @@ Ci sono due tipologie di richieste:
 
 
 ## Bootstrapping
-
 Consiste nell'entrare nella rete P2P: è un problema non affatto banale che viene solitamente risolto usando una delle seguenti modalità:
-- **Bootstrap cache**: ci si collega ad un nodo a cui si è precedente collegato;
-- **Boostrap server:** utilizza una lista di well-known host;
-- **Broadcast over ip**: Usa tecniche di broadcast, non applicabile su rete internet. Possibile su rete locale (in certe condizioni);
+- **Bootstrap cache**: assumendo che la prima volta riusciamo ad ottenere una connessione, possiamomantenere una cache e le volte successive possiamo usare la cache per vedere se un nodo con cuiabbiamo interagito in passato è accessibile nella rete.
+- **Bootstrap server**: ci si connette un host che è sempre nella rete, ma non ci piace usare un serverpoiché basta spegnerlo per far cadere la rete, in generale si chiede al server l’indirizzo di un nodonella rete.
+- **Bootstrap on the IP layer**: usa multicast chanel, e uso di broadcast IP (onerosi e sempre se a rete ciperette di usare il broadcast IP, solitamente è limitato).
