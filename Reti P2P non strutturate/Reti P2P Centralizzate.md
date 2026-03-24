@@ -20,7 +20,6 @@ Fornisce 4 operazioni:
 - **SELECT** - Si scelgono le migliori risposte
 - **DOWNLOAD** - Ci si connette ai peer che dispongono della risorsa richiesta
 
-
 È possibile fare qualsiasi operazione in soli 5 passaggi:  Connessione al server (autenticazione), Push dei propri contenuti, Query per il file ricercato, Select dalle risposte del server (Ricordiamoci che il server invia un messaggio per singola entry), e Download per scaricare il file direttamente con il Peer.
 
 **Svantaggi**: facili da attaccare poiché il server rappresenta l’anello debole e un collo di bottiglia per il sistema a causa delle lookup, nessun incentivo a collaborare.
