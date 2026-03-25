@@ -12,4 +12,4 @@ Il routing è parzialmente decentralizzato, il peer invia la richiesta ad un sup
 
 Gnutella organizza i nodi in un sistema gerarchico a 2 livelli in cui i nodi ad alta capacità chiamati Hub rispondono alle richieste delle componenti foglie (peer). Per evitare che si centralizzi troppo gli Hub hanno un grado massimo fissato (uguale a a 150). 
 
-La comunicazione tra foglie e hub è diretta ma è presente 
+La comunicazione tra foglie e hub è diretta ma è presente il problema dell'inter-hub communication: ogni hub conosce solo i propri vicini e quando un hub riceve un query da un nodo oltre ad elaborarla la inoltra ai propri vicini che non la inoltrano a loro volta (TTL=2). L'insieme dei nodi raggiunti è chiamato cluster. Qaundo un nodo richiede la ricerca di un file, viene priam ricercato l'elemento nel proprio cluster poi nei cluster vicini (a distanza 1) più cluster lontano scelto a caso. Ogni hub mantiene la lista degli hub vicini (direttamente connessi) in cache più una lista di hub lontano aggiornata di tanto in tanto.
