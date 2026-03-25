@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "2dca6ba713052135",
@@ -191,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,9 +208,11 @@
   },
   "active": "d154900e58cbf747",
   "lastOpenFiles": [
-    "Reti P2P non strutturate/Reti P2P Pure.md",
-    "Reti P2P non strutturate/Reti P2P Ibride.md",
     "Reti P2P non strutturate/Reti P2P Centralizzate.md",
+    "Reti P2P non strutturate/Reti P2P Ibride.md",
+    "Immagini/Pasted image 20260325182409.png",
+    "Reti P2P non strutturate/Reti P2P Pure.md",
+    "Immagini/Pasted image 20260325181844.png",
     "Reti P2P non strutturate/Caratteristiche di Base.md",
     "Immagini/Pasted image 20260324231001.png",
     "Immagini/Pasted image 20260324190454.png",
@@ -221,7 +224,6 @@
     "Immagini/Pasted image 20260316162254.png",
     "Pasted image 20260316162508.png",
     "Pasted image 20260316162254.png",
-    "Immagini/Pasted image 20260316152927.png",
     "Architetture Statiche/Architetture Statiche.md",
     "Architetture Statiche/Ipercubo (Hypercube).md",
     "Architetture Statiche/De Brujin Graph.md",
@@ -230,7 +232,6 @@
     "Architetture Statiche/Butterfly Network.md",
     "Architetture Statiche/Cube-Connected Cycles.md",
     "Architetture Statiche/Benes.md",
-    "Immagini/Pasted image 20260315155654.png",
     "Argomento X.md",
     "README.md",
     "Untitled.canvas",
