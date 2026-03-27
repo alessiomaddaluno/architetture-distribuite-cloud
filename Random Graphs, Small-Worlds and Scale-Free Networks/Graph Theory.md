@@ -17,3 +17,11 @@ L'APL (Avarage Path Length) è la distanza media considerando tutte le coppie di
 $$
 APL(G) = \frac{\sum_{(u,v)\in V \times V} d(u,v)}{n^2}
 $$
+#### Coefficiente di Clustering
+
+Il coefficiente di clustering del nodo $v$ è chiamato $C(v)$ e corrisponde a:
+
+$$ 
+C(v)= \frac{e(v)}{k(v)(k(v-1))/2}
+$$
+Dove $e(v)$ è il numero di vicini connessi tra di loro e 
