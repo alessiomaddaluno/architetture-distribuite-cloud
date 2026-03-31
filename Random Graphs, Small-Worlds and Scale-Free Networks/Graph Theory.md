@@ -22,6 +22,6 @@ $$
 Il coefficiente di clustering del nodo $v$ è chiamato $C(v)$ e corrisponde a:
 
 $$ 
-C(v)= \frac{e(v)}{k(v)(k(v-1))/2}
+C(v)= \frac{e(v)}{k(v)(k(v)-1)/2}
 $$
 Dove $e(v)$ è il numero di vicini connessi tra di loro e 
