@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Graphs, Small-Worlds and Scale-Free Networks/Gilbert.md",
+                "file": "Reti P2P non strutturate/Caratteristiche di Base.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gilbert"
+              "title": "Caratteristiche di Base"
             }
           },
           {
@@ -210,11 +210,13 @@
   },
   "active": "d154900e58cbf747",
   "lastOpenFiles": [
-    "Random Graphs, Small-Worlds and Scale-Free Networks/Graph Theory.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
+    "Pasted image 20260407171152.png",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Gilbert.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/Random Graph.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Erdős-Rényi.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/Graph Theory.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/Random Graph.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Erdős-Rényi Random Graphs.md",
     "Architetture Statiche/Immersione.md",
     "Architetture Statiche/Ipercubo (Hypercube).md",
@@ -237,7 +239,6 @@
     "Architetture Statiche/Shuffle Exchange.md",
     "Architetture Statiche/Wrapped Butterfly.md",
     "Architetture Statiche/Butterfly Network.md",
-    "Immagini/Pasted image 20260315155654.png",
     "Argomento X.md",
     "README.md",
     "Untitled.canvas",
