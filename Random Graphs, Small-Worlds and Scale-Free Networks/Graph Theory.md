@@ -25,3 +25,7 @@ $$
 C(v)= \frac{e(v)}{k(v)(k(v)-1)/2}
 $$
 Dove $e(v)$ è il numero di vicini connessi tra di loro e il denominatore è il "numero di coppie possibili", ovvero il coefficiente binomiale del grado del nodo.
+
+Lo si può vedere anche in questo modo:
+
+$$ \frac{\#triangoli(v)}{\#triangoli totali} $$
