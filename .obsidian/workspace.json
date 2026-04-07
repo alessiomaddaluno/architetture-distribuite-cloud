@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architetture Statiche/Cube-Connected Cycles.md",
+                "file": "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cube-Connected Cycles"
+              "title": "Untitled"
             }
           },
           {
@@ -210,21 +210,23 @@
   },
   "active": "d154900e58cbf747",
   "lastOpenFiles": [
-    "Architetture Statiche/Immersione.md",
-    "Architetture Statiche/Ipercubo (Hypercube).md",
-    "Architetture Statiche/De Brujin Graph.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Random Graph.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/Graph Theory.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Gilbert.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/Erdős-Rényi.md",
+    "Architetture Statiche/Immersione.md",
+    "Architetture Statiche/Ipercubo (Hypercube).md",
+    "Architetture Statiche/Shuffle Exchange.md",
+    "Architetture Statiche/Wrapped Butterfly.md",
+    "Reti P2P non strutturate/Caratteristiche di Base.md",
+    "Architetture Statiche/Cube-Connected Cycles.md",
+    "Architetture Statiche/De Brujin Graph.md",
     "Reti P2P non strutturate/Reti P2P Ibride.md",
     "Reti P2P non strutturate/Reti P2P Centralizzate.md",
-    "Reti P2P non strutturate/Caratteristiche di Base.md",
     "Immagini/Pasted image 20260407171152.png",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/Erdős-Rényi.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/Graph Theory.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Erdős-Rényi Random Graphs.md",
-    "Architetture Statiche/Cube-Connected Cycles.md",
     "Architetture Statiche/Benes.md",
     "Architetture Statiche/Architetture Statiche.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks",
@@ -239,8 +241,6 @@
     "Immagini/Pasted image 20260316162508.png",
     "Immagini/Pasted image 20260316162254.png",
     "Immagini/Pasted image 20260316152927.png",
-    "Architetture Statiche/Shuffle Exchange.md",
-    "Architetture Statiche/Wrapped Butterfly.md",
     "Architetture Statiche/Butterfly Network.md",
     "Argomento X.md",
     "README.md",
