@@ -89,3 +89,11 @@ Tale finger lo chiamiamo $f$ ed è l'$i-esimo$ finger di $u$.
 
 ![[Pasted image 20260501152639.png]]
 
+$f$ copre questo intervallo: 
+$$ [u+2^{i-1},u+2^{i} )$$
+E in questo intervallo c'è necessariamente anche $p$. 
+
+La distanza che c'è tra $u$ e $f$ è almeno $2^{i-1}$ per come abbiamo definito i fingers. Inoltre dal momento che $p$ appartiene all'intervallo, esso dista da $f$ al più $2^{i-1}$ , quindi ad ogni passo nel caso peggiore andiamo a selezionare un nodo che dimezza la distanza.
+
+**Parte 2 - Si riesce a raggiungere qualunque destinazione con O(log n) con alta probabilità**
+
