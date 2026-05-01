@@ -74,7 +74,7 @@ $$2^{-klogN} = \frac{1}{2^{klogN}}$$
 Per la proprietà dei logaritmi:
 $$ \frac{1}{n^k}$$
 
-### Teroema efficenza Lookup
+### Teorema efficenza Lookup
 
 **Lemma**:
 Il numero dei nodi che deve essere contattato per risolvere una lookup è O(log n) w.h.p.
@@ -103,6 +103,8 @@ $$\frac{2^{m}}{2^{logn}} = \frac{2^m}{n} $$
 Dal teorema precedente di distribuzione uniforme degli id sappiamo che in quell'intervallo abbiamo al più $O(logn)$ quindi al più abbiamo:
 
 $$O(logN) + O(logN) = O(logn) passi $$
+
+### Join e Stabilization
 
 
 
