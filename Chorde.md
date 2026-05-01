@@ -12,5 +12,15 @@ Anche le risorse sono mappate sull'anello e una risorsa (chiave) viene assegnata
 Chord fornisce una sola API, chiamata Lookup, prende un identificatore (160 bit) e restituisce un IP address.
 Il nodo deve fare due cose o risponderci o fornirci un IP di un nodo che ne sa più di lui.
 
+Ogni nodo ha un link verso:
+- $logn$ successori;
+- 1 predecessore;
+- $m$ fingers, whp $O(logn)$ 
+	- I possibili m fingers hanno id = $u+2^{i-1}$
 
+In totale mantiene dunque $logn + 1 + O(logn) = O(logn)$ link verso altri nodi.
+
+![[Pasted image 20260501114706.png]]
+
+### Algoritmo di Lookup
 
