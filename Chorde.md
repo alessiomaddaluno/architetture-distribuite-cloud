@@ -39,8 +39,13 @@ Quindi ci sta dicendo sostanzialmente che gli ID dei nodi sono distribuiti “qu
 
 Per dimostrarlo abbiamo prima bisogno di definire il **Chernoff Bound**:
 
-Abbiamo $n$ prove indipendenti $X_1, X_2, X_3... X_n$ ognuna con una probabilità di successo $p_i$ e una probabilità di insuccesso di $1-pi$
+Se ci troviamo difronte a un esperimento, per il quale facciamo $N$ prove, ogni prova ha una probabilità di successo $p_i$ e probabilità di insuccessi $1-p_i$, allora la media dei successi è la
+somma delle $p_i$, e la probabilità di discostarsi di un fattore δ (delta) rispetto alla media ($\mu$), è minore di questa quantità:
 
+![[Pasted image 20260501123412.png]]
 
+Se δ > 4, la funzione possiamo scriverla anche nel seguente modo:
+![[Pasted image 20260501123330.png]]
 
+Tale quantità rappresenta un upperbound del fenomeno.
 
