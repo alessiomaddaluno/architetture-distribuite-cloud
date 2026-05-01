@@ -73,3 +73,9 @@ $$2^{-klogN} = \frac{1}{2^{klogN}}$$
   
 Per la proprietà dei logaritmi:
 $$ \frac{1}{n^k}$$
+
+### Teroema efficenza Lookup
+
+**Lemma**:
+Il numero dei nodi che deve essere contattato per risolvere una lookup è O(log n) w.h.p.
+
