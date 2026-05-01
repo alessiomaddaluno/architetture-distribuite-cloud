@@ -33,6 +33,14 @@ Dato un qualunque intervallo di ampiezza $2^{m}/N$, il numero di ID
 di nodi atteso in questo intervallo è 1 in media e **O(log N)**
 w.h.p.
 
+Quindi ci sta dicendo sostanzialmente che gli ID dei nodi sono distribuiti “quasi uniformemente” sull’anello.
+
 **Dimostrazione**:
+
+Per dimostrarlo abbiamo prima bisogno di definire il **Chernoff Bound**:
+
+Abbiamo $n$ prove indipendenti $X_1, X_2, X_3... X_n$ ognuna con una probabilità di successo $p_i$ e una probabilità di insuccesso di $1-pi$
+
+
 
 
