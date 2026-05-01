@@ -49,3 +49,28 @@ Se δ > 4, la funzione possiamo scriverla anche nel seguente modo:
 
 Tale quantità rappresenta un upperbound del fenomeno.
 
+Ritornando a chorde il fenomeno è modellato come se i nodi fossero delle biglie e le sezioni del cerchio come contenitori.
+
+**Se consideriamo una fetta, la probabilità che il nodo cada in quella fetta è $1/n$ se ripetiamo l'esperimento $n$ volte in media sarà 1.**
+
+La probabilità che la media sia $klogn$  (che è come scrivere $O(logn)$ da quale relazione è delimitata? 
+
+Per capirlo dobbiamo vedere quanto vale $δ$ :
+
+$$(1+δ)\mu = klogN$$
+
+La media $\mu$ è 1, quindi:
+
+$$(1+δ) = klogN$
+$δ = klogN -1$$
+
+Se lo sostituiamo alla formula:
+
+$2^{-\mu(1+\delta)}$
+
+otteniamo:
+
+$2^{-klogN} = \frac{1}{2^{klogN}}$
+  
+Per la proprietà dei logaritmi:
+$$ \frac{1}{n^k}$$
