@@ -79,3 +79,13 @@ $$ \frac{1}{n^k}$$
 **Lemma**:
 Il numero dei nodi che deve essere contattato per risolvere una lookup è O(log n) w.h.p.
 
+**Parte 1** - Dimostriamo che ad ogni hop dimezziamo
+
+Supponiamo che il nodo $u$ deve risolvere una lookup per l’id $k$. Siano $p$ e $s$, rispettivamente, il predecessore e il successore dell’id $k$. 
+
+Se $u\neq s$ e $u \neq p$ allora non è in grado di risolvere la lookup, di conseguenza deve contattare il finger più grande che non va oltre $k$ , questo perché a noi è sufficiente conoscere il predecessore del nodo che gestisce la risorsa per come funziona la lookup.
+
+Tale finger lo chiamiamo $f$ ed è l'$i-esimo$ finger di $u$. 
+
+![[Pasted image 20260501152639.png]]
+
