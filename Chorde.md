@@ -61,16 +61,15 @@ $$(1+δ)\mu = klogN$$
 
 La media $\mu$ è 1, quindi:
 
-$$(1+δ) = klogN$
-$δ = klogN -1$$
+$$(1+δ) = klogN$$
 
 Se lo sostituiamo alla formula:
 
-$2^{-\mu(1+\delta)}$
+$$2^{-\mu(1+\delta)}$$
 
 otteniamo:
 
-$2^{-klogN} = \frac{1}{2^{klogN}}$
+$$2^{-klogN} = \frac{1}{2^{klogN}}$$
   
 Per la proprietà dei logaritmi:
 $$ \frac{1}{n^k}$$
