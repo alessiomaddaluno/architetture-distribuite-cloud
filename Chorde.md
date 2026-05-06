@@ -108,7 +108,8 @@ $$O(logN) + O(logN) = O(logn) passi $$
 
 Solo il primo nodo chiama la funzione create che crea un "anello" (anche se tecnicamente non lo è) impostando se stesso come *successor* e come precedessor a null. Tutti gli altri nodi chiamano la join e per farlo devono necessariamente conoscere un nodo appartenente alla rete. La migrazione delle risorse non è gestita dal protocollo stesso.
 
+![[Pasted image 20260506113806.png]]
 
-
+I nodi devono continuamente scambiarsi informazioni per verificare che i nodi sono ancora attivi e correggere poi la struttura. Periodicamente vengono quindi eseguita l'operazione di stabilization che si occupa di verificare se 
 
 
