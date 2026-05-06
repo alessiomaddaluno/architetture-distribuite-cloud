@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bfb008a501773a87",
+        "id": "5a2acbb75b0ecf20",
         "type": "tabs",
         "children": [
           {
-            "id": "d154900e58cbf747",
+            "id": "36027d637861416a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "2dca6ba713052135",
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d154900e58cbf747",
+  "active": "36027d637861416a",
   "lastOpenFiles": [
+    "Chorde.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Random Graph.md",
@@ -207,8 +209,7 @@
     "Architetture Statiche/Shuffle Exchange.md",
     "Architetture Statiche/Cube-Connected Cycles.md",
     "Architetture Statiche/Benes.md",
-    "Chorde.md",
-    "Pasted image 20260501152639.png",
+    "Immagini/Pasted image 20260501152639.png",
     "Immagini/Pasted image 20260501123412.png",
     "Immagini/Pasted image 20260501123330.png",
     "Immagini/Pasted image 20260501123244.png",
