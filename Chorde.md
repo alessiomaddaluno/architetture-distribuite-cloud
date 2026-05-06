@@ -110,6 +110,9 @@ Solo il primo nodo chiama la funzione create che crea un "anello" (anche se tecn
 
 ![[Pasted image 20260506113806.png]]
 
-I nodi devono continuamente scambiarsi informazioni per verificare che i nodi sono ancora attivi e correggere poi la struttura. Periodicamente vengono quindi eseguita l'operazione di stabilization che si occupa di verificare se 
+I nodi devono continuamente scambiarsi informazioni per verificare che i nodi sono ancora attivi e correggere poi la struttura. Periodicamente vengono quindi eseguita l'operazione di stabilization che si occupa di verificare se il predecessore del successore è il nodo corrente e nel caso tenerlo aggiornato. A quel punto viene chiamata la notify sul successore che si occupa di aggiornare il predecessore:
 
+![[Pasted image 20260506115332.png]]
 
+Altre operazioni periodiche ma utilizzate con frequenza minore sono fix.finger e ![[Pasted image 20260506120531.png]]check.predecessor
+![[Pasted image 20260506120531.png]]
