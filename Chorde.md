@@ -129,5 +129,10 @@ Cosa succede alla lookup a seguito di operazioni di Join?
 - L’operazione di Join è parzialmente terminata -> la lookup potrebbe essere rallentata
 - L’operazione di Join è incompleta (puntatori errati oppure le risorse si trovano in una posizione inconsistente rispetto ai link nella rete) -> la lookup potrebbe fallire
 
-Come dimostriamo la correttezza della join?
+**Come dimostriamo la correttezza della join?**
 
+Se ad un certo tempo $t$ siamo in grado di percorrere l'anello, o meglio di andare da $x$ a $y$ allora in qualunque tempo $t^1$ maggiore di $t$ saremo in grado di andare da $x$ e $y$. 
+
+Se guardiamo la stabilize, ci accorgiamo che l'istante in cui l'eventuale nuovo nodo crea il link verso il suo successore  è sempre precedente all'instante in cui il nodo $p$ crea il link verso $u$. 
+
+![[Pasted image 20260511121904.png]]
