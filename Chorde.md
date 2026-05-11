@@ -131,7 +131,7 @@ Cosa succede alla lookup a seguito di operazioni di Join?
 
 **Come dimostriamo la correttezza della join?**
 
-Se ad un certo tempo $t$ siamo in grado di percorrere l'anello, o meglio di andare da $x$ a $y$ allora in qualunque tempo $t^1$ maggiore di $t$ saremo in grado di andare da $x$ e $y$. 
+Se ad un certo tempo $t$ siamo in grado di percorrere l'anello, o meglio di andare da $x$ a $y$ allora in qualunque tempo $t^i$ maggiore di $t$ saremo in grado di andare da $x$ e $y$. 
 
 Se guardiamo la stabilize, ci accorgiamo che l'istante in cui l'eventuale nuovo nodo crea il link verso il suo successore  è sempre precedente all'instante in cui il nodo $p$ crea il link verso $u$. 
 
