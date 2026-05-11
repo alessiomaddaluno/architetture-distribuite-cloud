@@ -136,3 +136,10 @@ Se ad un certo tempo $t$ siamo in grado di percorrere l'anello, o meglio di anda
 Se guardiamo la stabilize, ci accorgiamo che l'istante in cui l'eventuale nuovo nodo crea il link verso il suo successore  è sempre precedente all'instante in cui il nodo $p$ crea il link verso $u$. 
 
 ![[Pasted image 20260511121904.png]]
+
+Per come è fatta la rete, inoltre ricordiamo che: 
+
+Se abbiamo una rete stabile con n nodi ed effettuiamo n join alla rete, e se tutti i puntatori ai successori sono corretti, allora il Lookup di una risorsa avrà necessità di O(log n) hops con alta probabilità.
+
+### Failure and replication
+
