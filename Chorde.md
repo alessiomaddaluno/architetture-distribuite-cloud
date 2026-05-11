@@ -114,7 +114,7 @@ I nodi devono continuamente scambiarsi informazioni per verificare che i nodi so
 
 ![[Pasted image 20260506115332.png]]
 
-Altre operazioni periodiche ma utilizzate con frequenza minore sono fix.finger e ![[Pasted image 20260506120531.png]]check.predecessor
+Altre operazioni periodiche ma utilizzate con frequenza minore sono fix.finger e check.predecessor
 ![[Pasted image 20260506120531.png]]
 
 La correttezza dei link al successore basta a garantire la correttezza delle lookup.
@@ -128,4 +128,6 @@ Cosa succede alla lookup a seguito di operazioni di Join?
 - L’operazione di Join è completamente terminata -> nessun problema
 - L’operazione di Join è parzialmente terminata -> la lookup potrebbe essere rallentata
 - L’operazione di Join è incompleta (puntatori errati oppure le risorse si trovano in una posizione inconsistente rispetto ai link nella rete) -> la lookup potrebbe fallire
+
+Come dimostriamo la correttezza della join?
 
