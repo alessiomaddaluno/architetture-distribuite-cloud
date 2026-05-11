@@ -147,3 +147,17 @@ In **Chord** un nodo non mantiene un solo successore, ma una **lista di r = log 
 Se il successore immediato fallisce, il nodo se ne accorge e lo sostituisce con il primo successore attivo presente nella lista, aggiornandola durante la procedura di **stabilize**. La nuova lista si ottiene copiando quella del proprio successore, eliminando l’ultimo elemento e inserendo il successore corrente in testa.
 Per interrompere il funzionamento della rete dovrebbero fallire **r nodi consecutivi** tra due operazioni di stabilize. Se la probabilità che un nodo fallisca è $p$, la probabilità di perdere $r$ successori consecutivi è $p^r$. Scegliendo $r=log⁡n$, tale probabilità diventa molto piccola (circa $1/n$).
 La **lookup** può sfruttare sia i **finger** sia i successori per raggiungere il nodo destinazione. Se durante il percorso un nodo non risponde, basta ripetere il passo: grazie agli aggiornamenti del protocollo, sarà disponibile un percorso alternativo. Questa proprietà è detta **routing locale**, perché ogni hop porta comunque più vicino alla destinazione.
+
+### Resource Replication
+
+Può sempre accadere che un nodo senza volerlo cade, e se non abbiamo repliche delle risorse tutte le risorse del nodo si perdono. Replichiamo le risorse, e si fanno con varie strategie, solitamente 3:
+
+1. Le repliche vanno su r successori;
+2. Prevede la possibilità di usare diverse funzioni hash, ad esempio r, ogni nodo non ha una sola id ma ne ha r, e viene memorizzate in tutte le sue chiavi, si posiziona in r nodi nella rete;
+3. Creare repliche speculari a distanze univormi;
+
+### Leave
+
+Dal momento che il protocollo è robusto ai fallimenti, potremmo ipotizzare di gestire la leave come un fallimento del nodo, tuttavia è preferibile, per migliorare le prestazioni del sistema, adottare alcuni accorgimenti, quando un nodo si disconnette volontariamente dalla rete. Il nodo che lascia la rete deve:
+1. trasferisce le proprie risorse al suo successore;
+2. notifica ai propri vicini (predecessore e successore) che sta uscendo dal sistema.
