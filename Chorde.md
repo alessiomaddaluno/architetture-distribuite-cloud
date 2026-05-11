@@ -143,3 +143,7 @@ Se abbiamo una rete stabile con n nodi ed effettuiamo n join alla rete, e se tut
 
 ### Failure and replication
 
+In **Chord** un nodo non mantiene un solo successore, ma una **lista di r = log n successori**, per rendere la rete più robusta ai guasti.
+Se il successore immediato fallisce, il nodo se ne accorge e lo sostituisce con il primo successore attivo presente nella lista, aggiornandola durante la procedura di **stabilize**. La nuova lista si ottiene copiando quella del proprio successore, eliminando l’ultimo elemento e inserendo il successore corrente in testa.
+Per interrompere il funzionamento della rete dovrebbero fallire **r nodi consecutivi** tra due operazioni di stabilize. Se la probabilità che un nodo fallisca è $p$, la probabilità di perdere $r$ successori consecutivi è $p^r$. Scegliendo $r=log⁡n$, tale probabilità diventa molto piccola (circa $1/n$).
+La **lookup** può sfruttare sia i **finger** sia i successori per raggiungere il nodo destinazione. Se durante il percorso un nodo non risponde, basta ripetere il passo: grazie agli aggiornamenti del protocollo, sarà disponibile un percorso alternativo. Questa proprietà è detta **routing locale**, perché ogni hop porta comunque più vicino alla destinazione.
