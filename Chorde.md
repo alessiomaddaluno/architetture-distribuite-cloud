@@ -161,3 +161,22 @@ Può sempre accadere che un nodo senza volerlo cade, e se non abbiamo repliche d
 Dal momento che il protocollo è robusto ai fallimenti, potremmo ipotizzare di gestire la leave come un fallimento del nodo, tuttavia è preferibile, per migliorare le prestazioni del sistema, adottare alcuni accorgimenti, quando un nodo si disconnette volontariamente dalla rete. Il nodo che lascia la rete deve:
 1. trasferisce le proprie risorse al suo successore;
 2. notifica ai propri vicini (predecessore e successore) che sta uscendo dal sistema.
+
+
+## Analisi Chord
+
+Da ora stiamo considerando una rete chord piena, ovvero con tutti gli id assegnati a dei nodi.
+
+![[Pasted image 20260514112554.png]]
+
+Da notare come i vicini puntano ai nodi che differiscono di un solo bit, simile all'ipercubo (Lo è tecnicamente).
+
+Consideriamo dunque sia composta da: $n=2^m$ nodi, dove $m$ è il numero di bit utilizzati per l'identificativo.
+I suoi vicini sono $m$ e sono $(x+2^i)\mod2^m$ con i che va da 1 a m;
+
+Quello che ci chiediamo è:
+
+- Quant' è il grado? 
+	- Il grado è banalmente $m = log n$, ricordiamoci che stiamo dicendo che l'anello è completo;
+	- Dati due nodi x e y la loro distanza d(x,y) è uguale al numero di “1” che ci sono nella stringa binaria (y-x) mod 2m. Se prendiamo ad esempio 000 e 111 la distanza sarà 3, ne consegue che il diametro è $m = log n$;
+	- 
