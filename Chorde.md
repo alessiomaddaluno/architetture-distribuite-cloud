@@ -177,6 +177,21 @@ I suoi vicini sono $m$ e sono $(x+2^i)\mod2^m$ con i che va da 1 a m;
 Quello che ci chiediamo è:
 
 - Quant' è il grado? 
-	- Il grado è banalmente $m = log n$, ricordiamoci che stiamo dicendo che l'anello è completo;
-	- Dati due nodi x e y la loro distanza d(x,y) è uguale al numero di “1” che ci sono nella stringa binaria (y-x) mod 2m. Se prendiamo ad esempio 000 e 111 la distanza sarà 3, ne consegue che il diametro è $m = log n$;
+	- Il **grado** è banalmente $m = log n$, ricordiamoci che stiamo dicendo che l'anello è completo;
+	- Dati due nodi x e y la loro distanza d(x,y) è uguale al numero di “1” che ci sono nella stringa binaria (y-x) mod 2m. Se prendiamo ad esempio 000 e 111 la distanza sarà 3, ne consegue che il **diametro** è $m = log n$;
+	- **APL** dovremmo calcolare la distanza tra tutte le coppie dei nodi e dividere per $n^2$ ma essendo il protocollo chord uniforme questa formula può essere semplificata in quanto il protcollo è uniforme e invece di prendere tutte le distanze, le possiamo fare solo per un determinato nodo e traslare il tutto per quanto sono i nodi:
 	- 
+	  ![[Pasted image 20260514113748.png]]
+	- Scegliamo come nodo sorgente a= 00..0 la distanza fra a e il generico nodo x è uguale al numero di bit 1 nella codifica binaria di x, pertanto se costruiamo una matrice con tutti gli identificatori essa avrà $2^m$ righe e $m$ colonne ma solo la metà dei suoi bit sarà 1, ed è il dato che ci serve. Dunque abbiamo che:
+	  
+	  ![[Pasted image 20260514114501.png]]
+
+In conclusione, quali sono i vantaggi e gli svantaggi dei sistemi P2P uniformi?
+
+Vantaggi:
+- Facili da implementare e analizzare;
+- Algoritmo di routing semplice (greedy);
+- Routing locale, la procedura di lookup interessa solo i nodi che si trovano fra sorgente e destinazione (non c'è overshooting);
+- Fast bootstrap: Poiché tutti i nodi utilizzano gli stessi jump, è possibile utilizzare la tabelladi routing del proprio predecessore per velocizzare notevolmente l’operazione di join;
+Svantaggi:
+- Non ci sono algoritmi più efficienti;
