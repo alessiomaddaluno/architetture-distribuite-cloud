@@ -12,3 +12,16 @@ Questa funzione ricerca le seguenti proprietà:
 - **Monotonicità**: Abbiamo un sistema con un certo numero V di nodi e supponiamo di aggiungere altri nodi al sistema. Le risorse devono migrare a partire dai nodi vecchi verso i nodi nuovi;
 - **Spread**: Al variare di n, il numero di posizioni che un dato può assumere è limitato
 - **Carico**: Al variare di n, il numero di dati che una posizione accoglie è limitato
+
+## Altro esempio di funzione hasing cosistente:
+
+Siano $K(x)$ ed $N(x)$ due funzioni casuali che hanno come codominio l’intervallo $[0,1)$.
+Definiamo la seguente funzione Hash:
+- Utilizziamo K(x) per mappare le chiavi
+- Utilizziamo N(x) per mappare i nodi
+
+F: La chiave i viene memorizzata nel nodo j se la differenza
+|K(i)-N(j)| è la minima su tutti i nodi j.
+
+In sostanza va a selezionare il nodo più vicino.
+
