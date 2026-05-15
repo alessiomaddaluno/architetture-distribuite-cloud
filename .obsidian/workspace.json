@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
+                "file": "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regular Network"
+              "title": "Small World Network"
             }
           }
         ]
@@ -198,10 +198,12 @@
   "active": "36027d637861416a",
   "lastOpenFiles": [
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/4. Gilbert.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/2. Random Graph.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/3. Erdős-Rényi.md",
+    "Erdős-Rényi.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/2. Random Graph.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
     "Architetture Statiche/3. Butterfly Network.md",
     "Architetture Statiche/4. Wrapped Butterfly.md",
@@ -232,9 +234,7 @@
     "Immagini/Pasted image 20260501123330.png",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Erdős-Rényi Random Graphs.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks",
-    "Reti P2P non strutturate/Reti P2P.md",
     "Reti P2P non strutturate",
-    "Argomento X.md",
     "Untitled.canvas",
     "Immagini",
     "Architetture Statiche"
