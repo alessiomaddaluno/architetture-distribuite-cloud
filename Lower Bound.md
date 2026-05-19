@@ -28,3 +28,4 @@ $$
 Il lower bound può essere ancora più stringente nel caso di sistemi uniformi, ovvero: dato una rete P2P con N nodi e di grado K allora il diametro della rete è $\Omega(logN)$ se $k=\Omega(logN)$
 
 (Se volessimo essere ancora più precisi dovremo dire che è 1/2 logN)
+
