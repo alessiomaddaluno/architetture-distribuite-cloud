@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architetture Statiche/1. Architetture Statiche.md",
+                "file": "Architetture Statiche/7. Shuffle Exchange.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Architetture Statiche"
+              "title": "7. Shuffle Exchange"
             }
           }
         ]
@@ -199,8 +199,8 @@
   "lastOpenFiles": [
     "Architetture Statiche/8. De Brujin Graph.md",
     "Architetture Statiche/7. Shuffle Exchange.md",
-    "Architetture Statiche/1.1 Immersione.md",
     "Architetture Statiche/1. Architetture Statiche.md",
+    "Architetture Statiche/1.1 Immersione.md",
     "Architetture Statiche/6. Cube-Connected Cycles.md",
     "Architetture Statiche/5. Benes.md",
     "Architetture Statiche/4. Wrapped Butterfly.md",
