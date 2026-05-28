@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
+                "file": "Architetture Statiche/6. Cube-Connected Cycles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Graph Theory"
+              "title": "6. Cube-Connected Cycles"
             }
           }
         ]
@@ -195,21 +195,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0dc2feafef7041c",
+  "active": "36027d637861416a",
   "lastOpenFiles": [
+    "Architetture Statiche/7. Shuffle Exchange.md",
+    "Architetture Statiche/5. Benes.md",
+    "Architetture Statiche/6. Cube-Connected Cycles.md",
+    "Architetture Statiche/8. De Brujin Graph.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/2. Random Graph.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/3. Erdős-Rényi.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/4. Gilbert.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
-    "Architetture Statiche/8. De Brujin Graph.md",
-    "Architetture Statiche/7. Shuffle Exchange.md",
     "Architetture Statiche/1. Architetture Statiche.md",
     "Architetture Statiche/1.1 Immersione.md",
-    "Architetture Statiche/6. Cube-Connected Cycles.md",
-    "Architetture Statiche/5. Benes.md",
     "Architetture Statiche/4. Wrapped Butterfly.md",
     "Architetture Statiche/3. Butterfly Network.md",
     "Architetture Statiche/2. Ipercubo (Hypercube).md",
