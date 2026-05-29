@@ -30,3 +30,13 @@ Lo dimostreremo nel caso di 1 dimensione, ovvero $d=1$
 ![[Pasted image 20260529173458.png]]
 
 Calcoliamo la probabilità $\theta$ che u ha un long range a distanza maggiore di d/2 e minore di d
+
+![[Pasted image 20260529173757.png]]
+
+La probabilità in questo caso non è altro che la somma delle probabilità che sia presente un long ring dai nodi che vanno da $d/2$ a $d$.
+
+Tale quantità ha un uppebound. 
+
+$p(d) = \frac{1}{d*\lambda}$
+
+dove lamda è la costante di normalizzazione. Serve a fare in modo che **tutte le probabilità sommino a 1**, come deve essere per qualsiasi distribuzione di probabilità.
