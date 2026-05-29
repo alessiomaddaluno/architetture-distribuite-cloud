@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
+                "file": "Chorde.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Small World Network"
+              "title": "Chorde"
             }
           }
         ]
@@ -197,11 +197,11 @@
   },
   "active": "36027d637861416a",
   "lastOpenFiles": [
+    "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
     "Pasted image 20260529173757.png",
     "Pasted image 20260529173458.png",
     "Pasted image 20260529170341.png",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/4. Gilbert.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/3. Erdős-Rényi.md",
@@ -232,7 +232,6 @@
     "Immagini/Pasted image 20260506120531.png",
     "Immagini/Pasted image 20260506115332.png",
     "Immagini/Pasted image 20260506113806.png",
-    "Immagini/Pasted image 20260501152639.png",
     "Random Graphs, Small-Worlds and Scale-Free Networks",
     "Reti P2P non strutturate",
     "Untitled.canvas",
