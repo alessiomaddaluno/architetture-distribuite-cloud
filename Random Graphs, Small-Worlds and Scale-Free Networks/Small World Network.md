@@ -39,4 +39,8 @@ Tale quantità ha un uppebound.
 
 $p(d) = \frac{1}{d*\lambda}$
 
-dove lamda è la costante di normalizzazione. Serve a fare in modo che **tutte le probabilità sommino a 1**, come deve essere per qualsiasi distribuzione di probabilità.
+dove lamda è la costante di normalizzazione. Serve a fare in modo che **tutte le probabilità sommino a 1**, come deve essere per qualsiasi distribuzione di probabilità. Sostituendo abbiamo l'ultimo elemento dell'equazione.
+
+A questo punto sappiamo che ogni $2lnn$ passi c'è un long ring e e lo dobbiamo fare al più $logN$ volte dato che stiamo dimezzando, allora viene fuori che:
+$lnn*logN = O(log^2N)$
+
