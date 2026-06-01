@@ -29,9 +29,7 @@ In totale mantiene dunque $logn + 1 + O(logn) = O(logn)$ link verso altri nodi.
 ### Teorema per la distribuzione degli id
 
 **Lemma**:
-Dato un qualunque intervallo di ampiezza $2^{m}/N$, il numero di ID
-di nodi atteso in questo intervallo è 1 in media e **O(log N)**
-w.h.p.
+Dato un qualunque intervallo di ampiezza $2^{m}/N$, il numero di ID di nodi atteso in questo intervallo è 1 in media e **O(log N)** w.h.p.
 
 Quindi ci sta dicendo sostanzialmente che gli ID dei nodi sono distribuiti “quasi uniformemente” sull’anello.
 
