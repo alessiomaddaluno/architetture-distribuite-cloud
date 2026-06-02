@@ -97,9 +97,9 @@ La distanza che c'è tra $u$ e $f$ è almeno $2^{i-1}$ per come abbiamo definito
 Sappiamo che la distanza tra sorgente e destinazione si dimezza ad ogni hop.
 Supponiamo di effettuare $log n$ hops, dopo questi passi la distanza della destinazione si riduce ad al più 
 $$\frac{2^{m}}{2^{logn}} = \frac{2^m}{n} $$
-Dal teorema precedente di distribuzione uniforme degli id sappiamo che in quell'intervallo abbiamo al più $O(logn)$ quindi al più abbiamo:
+Dal teorema precedente di distribuzione uniforme degli id sappiamo che in quell'intervallo abbiamo al più $O(logn)$ quindi anche se andiamo a usare esclusivamente i successori faremo al più $logn$ passi.
 
-$$O(logN) + O(logN) = O(logn) passi $$
+$$logn + O(logN) = O(logn) passi $$
 
 ### Join e Stabilization
 
