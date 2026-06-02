@@ -151,7 +151,7 @@ Può sempre accadere che un nodo senza volerlo cade, e se non abbiamo repliche d
 
 1. Le repliche vanno su r successori;
 2. Prevede la possibilità di usare diverse funzioni hash, ad esempio r, ogni nodo non ha una sola id ma ne ha r, e viene memorizzate in tutte le sue chiavi, si posiziona in r nodi nella rete;
-3. Creare repliche speculari a distanze univormi;
+3. Creare repliche speculari a distanze uniformi;
 
 ### Leave
 
