@@ -112,7 +112,7 @@ I nodi devono continuamente scambiarsi informazioni per verificare che i nodi so
 ![[Pasted image 20260506115332.png]]
 
 Altre operazioni periodiche ma utilizzate con frequenza minore sono fix.finger e check.predecessor
-![[Pasted image 20260506120531.png]]
+![[Pasted image 20260602120829.png]]
 
 La correttezza dei link al successore basta a garantire la correttezza delle lookup.
 Lazy Join
