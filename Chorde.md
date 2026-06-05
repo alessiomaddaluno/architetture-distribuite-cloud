@@ -175,7 +175,7 @@ Quello che ci chiediamo è:
 
 - Quant' è il grado? 
 	- Il **grado** è banalmente $m = log n$, ricordiamoci che stiamo dicendo che l'anello è completo;
-	- Dati due nodi x e y la loro distanza d(x,y) è uguale al numero di “1” che ci sono nella stringa binaria (y-x) mod 2m. Se prendiamo ad esempio 000 e 111 la distanza sarà 3, ne consegue che il **diametro** è $m = log n$;
+	- Dati due nodi x e y la loro distanza d(x,y) è uguale al numero di “1” che ci sono nella stringa binaria (y-x) mod $2^m$. Se prendiamo ad esempio 000 e 111 la distanza sarà 3, ne consegue che il **diametro** è $m = log n$;
 	- **APL** dovremmo calcolare la distanza tra tutte le coppie dei nodi e dividere per $n^2$ ma essendo il protocollo chord uniforme questa formula può essere semplificata in quanto il protcollo è uniforme e invece di prendere tutte le distanze, le possiamo fare solo per un determinato nodo e traslare il tutto per quanto sono i nodi:
 	- 
 	  ![[Pasted image 20260514113748.png]]
