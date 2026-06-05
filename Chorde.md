@@ -188,6 +188,7 @@ In conclusione, quali sono i vantaggi e gli svantaggi dei sistemi P2P uniformi?
 Vantaggi:
 - Facili da implementare e analizzare;
 - Algoritmo di routing semplice (greedy);
+- Non c'è congestione;
 - Routing locale, la procedura di lookup interessa solo i nodi che si trovano fra sorgente e destinazione (non c'è overshooting);
 - Fast bootstrap: Poiché tutti i nodi utilizzano gli stessi jump, è possibile utilizzare la tabelladi routing del proprio predecessore per velocizzare notevolmente l’operazione di join;
 Svantaggi:
