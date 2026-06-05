@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lower Bound.md",
+                "file": "Chorde.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lower Bound"
+              "title": "Chorde"
             }
           }
         ]
@@ -197,9 +197,9 @@
   },
   "active": "36027d637861416a",
   "lastOpenFiles": [
+    "Lower Bound.md",
     "Consistant Hashing.md",
     "Chorde.md",
-    "Lower Bound.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
     "Immagini/Pasted image 20260602120829.png",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
