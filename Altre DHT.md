@@ -43,3 +43,43 @@ Il **grado** di ogni nodo è $(k-1) \times \log_k n = O(\log n)$ e il **diametro
 ### Fault tolerance
 
 La tabella è robusta ai fallimenti perché ogni cella rappresenta una **classe di nodi equivalenti** — tutti i nodi con un determinato prefisso — e non un nodo unico e insostituibile come nell'ipercubo classico. Se un nodo in tabella fallisce, può essere rimpiazzato da qualsiasi altro nodo vivo con lo stesso prefisso richiesto. In pratica si mantengono candidati alternativi per ogni cella, e il protocollo aggiorna le tabelle quando rileva un fallimento.
+
+---
+
+## CAN (Content Addressable Network)
+
+I nodi sono mappati su un **toro d-dimensionale**. Ogni nodo è responsabile di una sottozona rettangolare di questo spazio e conosce solo i nodi che confinano con la propria zona (due per ogni dimensione), quindi il **grado è $O(d)$**.
+
+Il routing avviene in modo greedy: ad ogni hop ci si sposta verso il vicino che avvicina di più alla destinazione nello spazio d-dimensionale. Il costo è $O(d \cdot n^{1/d})$ passi, con media $\frac{d}{4} n^{1/d}$. Se si sceglie $d = \log n$ dimensioni si ottiene sia grado che routing pari a $O(\log n)$, verificabile come:
+
+$$O(\log n \cdot n^{1/\log n}) = O(\log n \cdot 2^{\log n / \log n}) = O(\log n \cdot 2) = O(\log n)$$
+
+### Join e Leave
+
+Quando un nodo entra nella rete, gli viene assegnato un punto casuale nello spazio. La zona del nodo già esistente responsabile di quel punto viene **divisa in due**: metà resta al vecchio nodo, metà passa al nuovo, insieme alle risorse corrispondenti.
+
+Quando un nodo lascia la rete, la sua zona viene ceduta a un vicino, che tenta di fonderla con la propria. Il problema principale è la **frammentazione**: dopo molte join e leave le zone diventano irregolari e difficili da unire, degradando le prestazioni.
+
+---
+
+## Viceroy
+
+L'obiettivo di Viceroy è abbassare il grado a **O(1)** mantenendo routing $O(\log n)$ in media. Per farlo ogni nodo viene mappato contemporaneamente su due strutture: una **butterfly** e un **array circolare**.
+
+### Struttura
+
+Ogni nodo sceglie un **livello** casuale tra 1 e $\log n'$ (dove $n'$ è una stima di $n$) e mantiene esattamente tre tipi di link, per un totale di 6 connessioni:
+
+- **General link**: predecessore e successore sull'array circolare (2 link)
+- **Level ring**: connette i nodi dello stesso livello tra loro (2 link)
+- **Butterfly link**: realizza la struttura butterfly tra livelli adiacenti (2 link)
+
+Il grado è quindi **O(1)**, costante e indipendente da $n$.
+
+### Routing e complessità
+
+Il routing sfrutta la struttura butterfly per avvicinarsi rapidamente alla destinazione livello per livello, e l'array circolare per la navigazione locale. Il costo è $O(\log n)$ hop in media e $O(\log^2 n)$ with high probability.
+
+### Tradeoff rispetto a Chord
+
+Viceroy sacrifica semplicità (tre tipi di link, gestione del livello casuale, struttura ibrida) per abbassare il grado da $O(\log n)$ a $O(1)$. Nel grafico grado-diametro si posiziona più a sinistra di Chord, avvicinandosi al lower bound generale $\Omega(\log n / \log \log n)$.
