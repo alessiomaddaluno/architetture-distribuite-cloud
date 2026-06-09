@@ -1,6 +1,6 @@
 ## Tapestry
 
-Tapestry è una realizzazione dinamica dell'algoritmo di Plaxton et al., che non si adattava a sistemi dinamici. L'idea di fondo è simulare un ipercubo in un contesto P2P dove i nodi entrano ed escono continuamente, rendendo la struttura fault-tolerant e adattiva.
+L'idea di fondo è simulare un ipercubo in un contesto P2P dove i nodi entrano ed escono continuamente, rendendo la struttura fault-tolerant e adattiva.
 
 ### Identificatori e struttura
 
