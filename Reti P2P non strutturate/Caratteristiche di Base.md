@@ -5,7 +5,7 @@
 La reti P2P non strutturate di 1° e 2° generazione:
 - Sono basate su TCP/IP
 - I contenuti sono distribuiti in maniera casuale nella rete;
-- Il trasferimento abbiene attraverso connessioni separate dirette over HTTP;
+- Il trasferimento avviene attraverso connessioni separate dirette over HTTP;
 
 **Peer**: 
 - Nodo che partecipa attivamente nella costruzione della rete di overlay;
