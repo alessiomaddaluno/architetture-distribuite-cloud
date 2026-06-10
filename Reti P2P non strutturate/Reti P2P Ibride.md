@@ -1,6 +1,6 @@
 ![[Pasted image 20260325181844.png]]
 
-Sistema basato su due layer: peer e superpeer; possiamo considerare la rete come un insieme du hub connessi tra di loro. 
+Sistema basato su due layer: peer e superpeer; possiamo considerare la rete come un insieme di hub connessi tra di loro. 
 
 **Peer**: si connettono a uno o più Superpeer (grado < 7) mentre i **superpeer** hanno grado alto (>>20) e sono scelti per elezione o volontà.
 
