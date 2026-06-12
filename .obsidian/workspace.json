@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
+                "file": "Consistant Hashing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Graph Theory"
+              "title": "Consistant Hashing"
             }
           }
         ]
@@ -198,12 +198,13 @@
   "active": "36027d637861416a",
   "lastOpenFiles": [
     "Chorde.md",
+    "Altre DHT.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
     "Lower Bound.md",
     "Consistant Hashing.md",
     "Reti P2P non strutturate/Reti P2P Ibride.md",
     "Reti P2P non strutturate/Caratteristiche di Base.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
     "Korde.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
@@ -221,7 +222,6 @@
     "Architetture Statiche/5. Benes.md",
     "Architetture Statiche/2. Ipercubo (Hypercube).md",
     "Architetture Statiche/1. Architetture Statiche.md",
-    "Altre DHT.md",
     "Altre DHT.md.tmp.24404.5699815d1227",
     "Altre DHT.md.tmp.9924.02d94c83e520",
     "Altre DHT.md.tmp.15720.b076865b4031",
