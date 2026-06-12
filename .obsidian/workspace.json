@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lower Bound.md",
+                "file": "Altre DHT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lower Bound"
+              "title": "Altre DHT"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "36027d637861416a",
   "lastOpenFiles": [
+    "Lower Bound.md",
     "Altre DHT.md",
     "Chorde.md",
     "Consistant Hashing.md",
@@ -204,7 +205,6 @@
     "Reti P2P non strutturate/Reti P2P Ibride.md",
     "Reti P2P non strutturate/Reti P2P Centralizzate.md",
     "Korde.md",
-    "Lower Bound.md",
     "Korde.md.tmp.9020.9e308c7de7ae",
     "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
     "Reti P2P non strutturate/Caratteristiche di Base.md",
