@@ -21,6 +21,9 @@ $$
 l+1 > log_kN 
 $$
 $$
+l > \frac{logN}{logK}
+$$
+
 l > log_kN = \Omega(logN/log(logN))
 $$
 
