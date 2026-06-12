@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lower Bound.md",
+                "file": "Korde.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lower Bound"
+              "title": "Korde"
             }
           }
         ]
@@ -197,15 +197,16 @@
   },
   "active": "36027d637861416a",
   "lastOpenFiles": [
+    "Lower Bound.md",
+    "Korde.md.tmp.9020.9e308c7de7ae",
+    "Korde.md",
     "Consistant Hashing.md",
     "Chorde.md",
     "Altre DHT.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
-    "Lower Bound.md",
     "Reti P2P non strutturate/Reti P2P Ibride.md",
     "Reti P2P non strutturate/Caratteristiche di Base.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
-    "Korde.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/2. Random Graph.md",
@@ -229,7 +230,6 @@
     "Immagini/Pasted image 20260529173757.png",
     "Immagini/Pasted image 20260529173458.png",
     "Immagini/Pasted image 20260529170341.png",
-    "Erdős-Rényi.md",
     "Immagini/Pasted image 20260514114501.png",
     "Immagini/Pasted image 20260514113748.png",
     "Immagini/Pasted image 20260514112554.png",
