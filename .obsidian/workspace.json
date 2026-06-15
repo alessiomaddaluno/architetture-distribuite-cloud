@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chorde.md",
+                "file": "Korde.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chorde"
+              "title": "Korde"
             }
           }
         ]
@@ -197,6 +197,9 @@
   },
   "active": "36027d637861416a",
   "lastOpenFiles": [
+    "Lower Bound.md",
+    "Korde.md",
+    "Chorde.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/2. Random Graph.md",
@@ -211,13 +214,10 @@
     "Architetture Statiche/7. Shuffle Exchange.md",
     "Architetture Statiche/8. De Brujin Graph.md",
     "Altre DHT.md",
-    "Lower Bound.md",
-    "Chorde.md",
     "Consistant Hashing.md",
     "Reti P2P non strutturate/Reti P2P Pure.md",
     "Reti P2P non strutturate/Reti P2P Ibride.md",
     "Reti P2P non strutturate/Reti P2P Centralizzate.md",
-    "Korde.md",
     "Korde.md.tmp.9020.9e308c7de7ae",
     "Reti P2P non strutturate/Caratteristiche di Base.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
