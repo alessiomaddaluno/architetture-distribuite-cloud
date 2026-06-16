@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architetture Statiche/8. De Brujin Graph.md",
+                "file": "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. De Brujin Graph"
+              "title": "1. Graph Theory"
             }
           }
         ]
@@ -197,11 +197,14 @@
   },
   "active": "36027d637861416a",
   "lastOpenFiles": [
+    "Random Graphs, Small-Worlds and Scale-Free Networks/2. Random Graph.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
+    "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
+    "Architetture Statiche/8. De Brujin Graph.md",
     "Architetture Statiche/7. Shuffle Exchange.md",
     "Architetture Statiche/6. Cube-Connected Cycles.md",
     "Architetture Statiche/1.1 Immersione.md",
     "README.md",
-    "Architetture Statiche/8. De Brujin Graph.md",
     "Architetture Statiche/5. Benes.md",
     "Architetture Statiche/4. Wrapped Butterfly.md",
     "Architetture Statiche/3. Butterfly Network.md",
@@ -210,8 +213,6 @@
     "Chorde.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/2. Random Graph.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/1. Graph Theory.md",
     "Architetture Statiche/1. Architetture Statiche.md",
     "Architetture Statiche/2. Ipercubo (Hypercube).md",
     "Altre DHT.md",
@@ -221,7 +222,6 @@
     "Reti P2P non strutturate/Reti P2P Centralizzate.md",
     "Korde.md.tmp.9020.9e308c7de7ae",
     "Reti P2P non strutturate/Caratteristiche di Base.md",
-    "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/4. Gilbert.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/3. Erdős-Rényi.md",
     "Altre DHT.md.tmp.24404.5699815d1227",
