@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chorde.md",
+                "file": "Lower Bound.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chorde"
+              "title": "Lower Bound"
             }
           }
         ]
@@ -197,11 +197,13 @@
   },
   "active": "36027d637861416a",
   "lastOpenFiles": [
+    "Altre DHT.md",
+    "Consistant Hashing.md",
+    "Chorde.md",
     "Reti P2P non strutturate/Reti P2P Ibride.md",
     "Reti P2P non strutturate/Reti P2P Pure.md",
     "Reti P2P non strutturate/Reti P2P Centralizzate.md",
     "Reti P2P non strutturate/Caratteristiche di Base.md",
-    "Altre DHT.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Untitled.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Small World Network.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/Regular Network.md",
@@ -217,10 +219,8 @@
     "Architetture Statiche/3. Butterfly Network.md",
     "Korde.md",
     "Lower Bound.md",
-    "Chorde.md",
     "Architetture Statiche/1. Architetture Statiche.md",
     "Architetture Statiche/2. Ipercubo (Hypercube).md",
-    "Consistant Hashing.md",
     "Korde.md.tmp.9020.9e308c7de7ae",
     "Random Graphs, Small-Worlds and Scale-Free Networks/4. Gilbert.md",
     "Random Graphs, Small-Worlds and Scale-Free Networks/3. Erdős-Rényi.md",
